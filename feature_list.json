@@ -5,7 +5,7 @@
     {"name": "stigmergy_coordination", "module": "coordination/stigmergy.py", "pass": true},
     {"name": "distributed_locking", "module": "coordination/locking.py", "pass": true},
     {"name": "crdt_state", "module": "coordination/state.py", "pass": true},
-    {"name": "task_creator_agent", "module": "agents/task_creator.py", "pass": false},
+    {"name": "task_creator_agent", "module": "agents/task_creator.py", "pass": true},
     {"name": "task_assigner_agent", "module": "agents/task_assigner.py", "pass": false},
     {"name": "worker_agent", "module": "agents/worker.py", "pass": false},
     {"name": "qa_checker_agent", "module": "agents/qa_checker.py", "pass": false},
@@ -19,5 +19,5 @@
   ],
   "iteration": 1,
   "total_features": 16,
-  "passing": 5
+  "passing": 6
 }
