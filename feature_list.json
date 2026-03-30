@@ -8,7 +8,7 @@
     {"name": "task_creator_agent", "module": "agents/task_creator.py", "pass": true},
     {"name": "task_assigner_agent", "module": "agents/task_assigner.py", "pass": true},
     {"name": "worker_agent", "module": "agents/worker.py", "pass": true},
-    {"name": "qa_checker_agent", "module": "agents/qa_checker.py", "pass": false},
+    {"name": "qa_checker_agent", "module": "agents/qa_checker.py", "pass": true},
     {"name": "research_agent", "module": "agents/researcher.py", "pass": false},
     {"name": "research_verifier_agent", "module": "agents/verifier.py", "pass": false},
     {"name": "notes_agent", "module": "agents/notes.py", "pass": false},
@@ -19,5 +19,5 @@
   ],
   "iteration": 1,
   "total_features": 16,
-  "passing": 8
+  "passing": 9
 }

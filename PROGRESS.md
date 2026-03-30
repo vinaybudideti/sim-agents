@@ -11,6 +11,7 @@
 6. [x] Build agents/task_creator.py — env scanning, backlog.json, priority scores (Step 6)
 7. [x] Build agents/task_assigner.py — Vickrey auction, distributed locking (Step 7)
 8. [x] Build agents/worker.py — git worktree isolation, task execution, commits (Step 8)
+9. [x] Build agents/qa_checker.py — danger theory, 3 passes, clonal selection (Step 9)
 
 ## In Progress
 - [ ] Phase 1: Package scaffold and core agents
