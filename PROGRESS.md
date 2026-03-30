@@ -15,6 +15,7 @@
 10. [x] Build agents/researcher.py — findings, model routing, project scanning (Step 10)
 11. [x] Build agents/verifier.py — cross-references findings against code (Step 11)
 12. [x] Build agents/notes.py — monitors git, maintains PROGRESS/DECISIONS/FAILURES (Step 12)
+13. [x] Build agents/project_runner.py — health monitoring, runtime reports (Step 13)
 
 ## In Progress
 - [ ] Phase 1: Package scaffold and core agents
