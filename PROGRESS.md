@@ -8,6 +8,7 @@
 3. [x] Build coordination/stigmergy.py — pheromone R/W, env scanning, watchdog (Step 3)
 4. [x] Build coordination/locking.py — Upstash Redis distributed locks, SETNX, heartbeat (Step 4)
 5. [x] Build coordination/state.py — CRDTs: G-Counter, OR-Set, LWW-Register (Step 5)
+6. [x] Build agents/task_creator.py — env scanning, backlog.json, priority scores (Step 6)
 
 ## In Progress
 - [ ] Phase 1: Package scaffold and core agents
