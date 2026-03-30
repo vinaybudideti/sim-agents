@@ -1,6 +1,6 @@
 {
   "features": [
-    {"name": "pyproject.toml", "module": "root", "pass": false},
+    {"name": "pyproject.toml", "module": "root", "pass": true},
     {"name": "package_structure", "module": "src/sim_agents", "pass": false},
     {"name": "stigmergy_coordination", "module": "coordination/stigmergy.py", "pass": false},
     {"name": "distributed_locking", "module": "coordination/locking.py", "pass": false},
@@ -17,7 +17,7 @@
     {"name": "cli", "module": "cli.py", "pass": false},
     {"name": "agentfuse_integration", "module": "cost/tracking.py", "pass": false}
   ],
-  "iteration": 0,
+  "iteration": 1,
   "total_features": 16,
-  "passing": 0
+  "passing": 1
 }
