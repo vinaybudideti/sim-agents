@@ -10,7 +10,7 @@
     {"name": "worker_agent", "module": "agents/worker.py", "pass": true},
     {"name": "qa_checker_agent", "module": "agents/qa_checker.py", "pass": true},
     {"name": "research_agent", "module": "agents/researcher.py", "pass": true},
-    {"name": "research_verifier_agent", "module": "agents/verifier.py", "pass": false},
+    {"name": "research_verifier_agent", "module": "agents/verifier.py", "pass": true},
     {"name": "notes_agent", "module": "agents/notes.py", "pass": false},
     {"name": "project_agent", "module": "agents/project_runner.py", "pass": false},
     {"name": "orchestrator", "module": "orchestrator.py", "pass": false},
@@ -19,5 +19,5 @@
   ],
   "iteration": 1,
   "total_features": 16,
-  "passing": 10
+  "passing": 11
 }
