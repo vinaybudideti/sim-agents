@@ -17,6 +17,7 @@
 12. [x] Build agents/notes.py — monitors git, maintains PROGRESS/DECISIONS/FAILURES (Step 12)
 13. [x] Build agents/project_runner.py — health monitoring, runtime reports (Step 13)
 14. [x] Build orchestrator.py — SIM loop wiring all 10 agents (Step 14)
+15. [x] Build cli.py — init, run, status, logs commands (Step 15)
 
 ## In Progress
 - [ ] Phase 1: Package scaffold and core agents
