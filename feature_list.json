@@ -13,11 +13,11 @@
     {"name": "research_verifier_agent", "module": "agents/verifier.py", "pass": true},
     {"name": "notes_agent", "module": "agents/notes.py", "pass": true},
     {"name": "project_agent", "module": "agents/project_runner.py", "pass": true},
-    {"name": "orchestrator", "module": "orchestrator.py", "pass": false},
+    {"name": "orchestrator", "module": "orchestrator.py", "pass": true},
     {"name": "cli", "module": "cli.py", "pass": false},
     {"name": "agentfuse_integration", "module": "cost/tracking.py", "pass": false}
   ],
   "iteration": 1,
   "total_features": 16,
-  "passing": 13
+  "passing": 14
 }
