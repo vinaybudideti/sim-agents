@@ -14,10 +14,10 @@
     {"name": "notes_agent", "module": "agents/notes.py", "pass": true},
     {"name": "project_agent", "module": "agents/project_runner.py", "pass": true},
     {"name": "orchestrator", "module": "orchestrator.py", "pass": true},
-    {"name": "cli", "module": "cli.py", "pass": false},
+    {"name": "cli", "module": "cli.py", "pass": true},
     {"name": "agentfuse_integration", "module": "cost/tracking.py", "pass": false}
   ],
   "iteration": 1,
   "total_features": 16,
-  "passing": 14
+  "passing": 15
 }
