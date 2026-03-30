@@ -1,23 +1,23 @@
 {
   "features": [
-    {"name": "pyproject.toml", "module": "root", "pass": false},
-    {"name": "package_structure", "module": "src/sim_agents", "pass": false},
-    {"name": "stigmergy_coordination", "module": "coordination/stigmergy.py", "pass": false},
-    {"name": "distributed_locking", "module": "coordination/locking.py", "pass": false},
-    {"name": "crdt_state", "module": "coordination/state.py", "pass": false},
-    {"name": "task_creator_agent", "module": "agents/task_creator.py", "pass": false},
-    {"name": "task_assigner_agent", "module": "agents/task_assigner.py", "pass": false},
-    {"name": "worker_agent", "module": "agents/worker.py", "pass": false},
-    {"name": "qa_checker_agent", "module": "agents/qa_checker.py", "pass": false},
-    {"name": "research_agent", "module": "agents/researcher.py", "pass": false},
-    {"name": "research_verifier_agent", "module": "agents/verifier.py", "pass": false},
-    {"name": "notes_agent", "module": "agents/notes.py", "pass": false},
-    {"name": "project_agent", "module": "agents/project_runner.py", "pass": false},
-    {"name": "orchestrator", "module": "orchestrator.py", "pass": false},
-    {"name": "cli", "module": "cli.py", "pass": false},
-    {"name": "agentfuse_integration", "module": "cost/tracking.py", "pass": false}
+    {"name": "pyproject.toml", "module": "root", "pass": true},
+    {"name": "package_structure", "module": "src/sim_agents", "pass": true},
+    {"name": "stigmergy_coordination", "module": "coordination/stigmergy.py", "pass": true},
+    {"name": "distributed_locking", "module": "coordination/locking.py", "pass": true},
+    {"name": "crdt_state", "module": "coordination/state.py", "pass": true},
+    {"name": "task_creator_agent", "module": "agents/task_creator.py", "pass": true},
+    {"name": "task_assigner_agent", "module": "agents/task_assigner.py", "pass": true},
+    {"name": "worker_agent", "module": "agents/worker.py", "pass": true},
+    {"name": "qa_checker_agent", "module": "agents/qa_checker.py", "pass": true},
+    {"name": "research_agent", "module": "agents/researcher.py", "pass": true},
+    {"name": "research_verifier_agent", "module": "agents/verifier.py", "pass": true},
+    {"name": "notes_agent", "module": "agents/notes.py", "pass": true},
+    {"name": "project_agent", "module": "agents/project_runner.py", "pass": true},
+    {"name": "orchestrator", "module": "orchestrator.py", "pass": true},
+    {"name": "cli", "module": "cli.py", "pass": true},
+    {"name": "agentfuse_integration", "module": "cost/tracking.py", "pass": true}
   ],
-  "iteration": 0,
+  "iteration": 1,
   "total_features": 16,
-  "passing": 0
+  "passing": 16
 }
