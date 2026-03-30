@@ -15,9 +15,9 @@
     {"name": "project_agent", "module": "agents/project_runner.py", "pass": true},
     {"name": "orchestrator", "module": "orchestrator.py", "pass": true},
     {"name": "cli", "module": "cli.py", "pass": true},
-    {"name": "agentfuse_integration", "module": "cost/tracking.py", "pass": false}
+    {"name": "agentfuse_integration", "module": "cost/tracking.py", "pass": true}
   ],
   "iteration": 1,
   "total_features": 16,
-  "passing": 15
+  "passing": 16
 }
